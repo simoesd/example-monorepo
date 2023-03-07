@@ -1,0 +1,47 @@
+{
+    "packages": {
+        "example/project": [
+            {
+                "name": "example/project",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/simoesd/example-monorepo.git",
+                    "reference": "9a792e184c46a8e32ae8c76b0bad525f402d94f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/simoesd/example-monorepo/zipball/9a792e184c46a8e32ae8c76b0bad525f402d94f6",
+                    "reference": "9a792e184c46a8e32ae8c76b0bad525f402d94f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": "^7.0||^8.0"
+                },
+                "replace": {
+                    "example/module-primary-feature": "*",
+                    "example/module-secondary-feature": "*",
+                    "example/theme-dark": "*",
+                    "example/theme-light": "*"
+                },
+                "time": "2023-03-07T10:07:58+00:00",
+                "default-branch": true,
+                "type": "project",
+                "autoload": {
+                    "psr-4": {
+                        "Example\\": "app/modules/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "Example project containing multiple packages",
+                "support": {
+                    "source": "https://github.com/simoesd/example-monorepo/tree/master"
+                }
+            }
+        ]
+    }
+}
