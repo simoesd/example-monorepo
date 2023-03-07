@@ -1,0 +1,9 @@
+{
+	"name": "example/monorepo",
+	"homepage": "http://packages.example.org",
+	"output-html": true,
+	"repositories": [
+		{ "type": "vcs", "url": "https://github.com/simoesd/example-monorepo" }
+	],
+	"require-all": true
+}

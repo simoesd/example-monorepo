@@ -1,0 +1,20 @@
+{
+    "name": "example/project",
+    "description": "Example project containing multiple packages",
+    "version": "5.0.0",
+    "type": "project",
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.0||^8.0",
+        "ext-json": "*"
+    },
+    "replace": {
+        "example/module-primary-feature": "*",
+        "example/module-secondary-feature": "*",
+        "example/theme-dark": "*",
+        "example/theme-light": "*"
+    },
+    "autoload": {
+        "psr-4": {"Example\\": "app/modules/"}
+    }
+}

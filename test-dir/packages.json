@@ -1,0 +1,12 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$fc5863bf0bb38d09cf8a1fb28c83ecfb7fdf66f7.json": {
+            "sha1": "fc5863bf0bb38d09cf8a1fb28c83ecfb7fdf66f7"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "example/project"
+    ]
+}
