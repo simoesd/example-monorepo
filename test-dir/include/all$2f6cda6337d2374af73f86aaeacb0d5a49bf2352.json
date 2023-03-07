@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/simoesd/example-monorepo.git",
-                    "reference": "9a792e184c46a8e32ae8c76b0bad525f402d94f6"
+                    "reference": "13150718ad3430b8ee11c8c70dddb2cd394e93e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/simoesd/example-monorepo/zipball/9a792e184c46a8e32ae8c76b0bad525f402d94f6",
-                    "reference": "9a792e184c46a8e32ae8c76b0bad525f402d94f6",
+                    "url": "https://api.github.com/repos/simoesd/example-monorepo/zipball/13150718ad3430b8ee11c8c70dddb2cd394e93e9",
+                    "reference": "13150718ad3430b8ee11c8c70dddb2cd394e93e9",
                     "shasum": ""
                 },
                 "require": {
@@ -26,7 +26,7 @@
                     "example/theme-dark": "*",
                     "example/theme-light": "*"
                 },
-                "time": "2023-03-07T10:07:58+00:00",
+                "time": "2023-03-07T12:50:46+00:00",
                 "default-branch": true,
                 "type": "project",
                 "autoload": {
